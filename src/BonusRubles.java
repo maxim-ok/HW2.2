@@ -6,7 +6,7 @@ public class BonusRubles {
         int finalAccount; // Итоговый счет
         int bonusRubles; // Бонусы
 
-        if (repleshAmount >= 1000) {
+        if (repleshAmount > 1000) {
 
             finalAccount = initialAccount + repleshAmount + (repleshAmount / 100);
             bonusRubles = repleshAmount / 100;
@@ -23,13 +23,6 @@ public class BonusRubles {
 
 
 
-        // Объявляете переменные для входных данных и
-        // параметров программы: начального счёта,
-        // суммы пополнения и тп
 
-        // Условным оператором проверяете превысила ли
-        // сумма пополнения порог и для этих двух разных
-        // сценариев рассчитываете сумму бонуса и выводите
-        // на экран.
     }
 }
