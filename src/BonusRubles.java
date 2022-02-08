@@ -2,7 +2,7 @@ public class BonusRubles {
     public static void main(String[] args) {
 
         int initialAccount = 100; // Начальный счет
-        int repleshAmount = 1200; // Сумма пополнения
+        int repleshAmount = 1200; // Сумма пополнения на счет
         int finalAccount; // Итоговый счет
         int bonusRubles; // Бонусы
 
